@@ -32,3 +32,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Data
+communes-france-2025.csv
