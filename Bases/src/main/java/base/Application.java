@@ -1,5 +1,8 @@
 package base;
 
+import base.math.Euclide;
+
+// classe principale
 public class Application {
 
     // point d'entrée du programme
@@ -13,6 +16,9 @@ public class Application {
         int nbPerson = 4;
 
         System.out.println("nous sommes " + nbPerson + " à " + city); // concaténation
+
+        int g = Euclide.pgcd(21, 15);
+        System.out.println("Le pgcd est : " + g);
     }
 
 }
