@@ -17,6 +17,9 @@ public class CommuneL {
     private String codePostal;
     private String depCode;
     private int population;
-    private float superficie;
+    private float superficieKm2;
+
+    @Builder.Default
+    private float superficieHectare = Float.NaN;
 
 }
